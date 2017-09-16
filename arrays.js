@@ -8,10 +8,10 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
   // var temp = array.unshift(element);
   return array.unshift(element);
 
-  var temp = [element, ...array];
-  return temp;
+  // var temp = [element, ...array];
+  // return temp;
 }
-
+/*
 function addElementToEndOfArray(array, element) {
   return [...array, element];
 }
@@ -19,3 +19,4 @@ function addElementToEndOfArray(array, element) {
 function destructivelyAddElementToEndOfArray(array, element) {
   return array.push(element);
 }
+*/
